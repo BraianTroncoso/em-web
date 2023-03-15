@@ -14,7 +14,15 @@ Nav
 #navGral{
     height: 65px;
 }
+.nav-item a:hover{
+    color: black !important;
+    background: white !important;
+}
 
+#join:hover{
+    background: white;
+    color: black !important;
+}
 .nav-item{
     font-size: 15px;
     margin-left: 15px;
@@ -47,3 +55,4 @@ Footer
 #icons{
 color:red;
 }
+
