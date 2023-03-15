@@ -3,6 +3,13 @@
     margin: 0;
     box-sizing: border-box;
 }
+body{
+    background-color:rgba(0, 0, 0, 0.925) !important;
+}
+
+/*
+Nav
+*/
 
 #navGral{
     height: 65px;
@@ -13,12 +20,30 @@
     margin-left: 15px;
     font-family: 'Tilt Neon', cursive;
     background-color: black;
-    font-weight: bold;
+    font-weight: 900;
 }
 #join{
     font-size: 15px;
     padding: 10px;
     font-family: 'Tilt Neon', cursive;
     background-color: black;
-    font-weight: bold;
+    font-weight: 900;
+}
+
+
+/*
+Carousel
+*/
+
+
+#containerCarouselImg{
+    height: 400px !important;
+}
+
+
+/*
+Footer
+*/
+#icons{
+color:red;
 }
