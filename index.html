@@ -6,8 +6,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Fuentes-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tilt+Neon&display=swap" rel="stylesheet">
+    <!--Animaciones-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.min.css">
     <!--Sylos-->
     <link rel="stylesheet" href="style.css">
     <!--Boostrap-->
@@ -37,8 +39,12 @@
             <li class="nav-item">
               <a class="nav-link text-white" href="#">LYRICS</a>
             </li>
-          </ul>
+          </ul>   
         </div>
+        <div class = "collapse navbar-collapse w-25">
+          <img src="./img/logo.png" class="img-fluid" alt="img-1" id="logo">
+        </div>
+       
         <a class="navbar-brand text-white" href="#" id="join">JOIN</a>
       </nav>
 <!--Carousel-->
@@ -87,14 +93,15 @@
     </div>
 
     <div class="pb-5 w-50">
-      <img src="./img/em-live.jpg" class="img-fluid" alt="img-3" id="imgLive">
+      <img src="./img/em-live.jpg" class="img-fluid animated infinite pulse delay-2s"alt="img-3" id="imgLive">
     </div>
+    <button class="button" onclick="myFunction()">Ejecutar animación</button>
 
     </section>
     <div class="row row-cols-1 row-cols-md-3 g-4 ">
       <div class="col">
         <div class="card h-100">
-          <img src="img/em1.jpg" class="card-img-top" alt="...">
+          <img src="img/em1.jpg" class="card-img-top " alt="...">
           <div class="card-body">
             <h5 class="card-title">SPECIALS</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
@@ -106,7 +113,7 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="img/em1.jpg" class="card-img-top" alt="...">
+          <img src="img/em1.jpg" class="card-img-top " alt="...">
           <div class="card-body">
             <h5 class="card-title">UNPUBLISHED</h5>
             <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
@@ -118,7 +125,7 @@
       </div>
       <div class="col">
         <div class="card h-100">
-          <img src="img/em1.jpg" class="card-img-top" alt="...">
+          <img src="img/em1.jpg" class="card-img-top " alt="...">
           <div class="card-body">
             <h5 class="card-title">MENTIONS</h5>
             <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
@@ -147,5 +154,13 @@
   
 </body>
 <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
-
+<script src="main.js"></script>
 </html>
+
+<!--
+  https://codingpotions.com/animaciones-css
+  https://codepen.io/Frostq/pen/roeBEm?editors=1111
+  https://animate.style/
+  https://www.eminem.com
+  https://www.codegpt.co/?fbclid=IwAR2RVdVHAC28HJ0UmhOTuSPi0e6uYzLgMQ08JYJvT8rch1x_6IdFm2gPWYY
+-->

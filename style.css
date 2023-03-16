@@ -10,7 +10,13 @@ body{
 /*
 Nav
 */
-
+#logo{
+    height: 40px;
+    width: 60px;
+}
+#cajita{
+    height: 30px !important;
+}
 #navGral{
     height: 65px;
 }
