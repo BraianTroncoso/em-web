@@ -10,6 +10,14 @@ body{
 /*
 Nav
 */
+#imgFlayerC{
+    width: 100%;
+    height: 100%;
+}
+#imgFlayer{
+    width: 100%;
+    height: 100%;
+}
 #logo{
     height: 40px;
     width: 60px;
@@ -54,7 +62,22 @@ Carousel
     height: 400px !important;
 }
 
+/*
+Cards
+*/
+#textCards{
+    font-weight: 900;
+}
 
+.animate__bounceIn {
+    animation-duration: 2s;
+    animation-timing-function: ease-in;
+  }
+
+#imgSizeCard{
+    width: 100%;
+    height: 100vh;
+}
 /*
 Footer
 */
@@ -62,6 +85,3 @@ Footer
 color:red;
 }
 
-#textCards{
-    font-weight: 900;
-}
